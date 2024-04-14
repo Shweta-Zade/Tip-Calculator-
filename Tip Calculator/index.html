@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <img class="post" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQM9gWAZEhPAtLOfa7xLPiwOZT6R0EyULl6QKdnqxh8bjZdqmMJ" alt="image">
+        <h1 class="tip">Tip Calculator</h1>
+        <div class="inputdiv">
+            <p class="para">Bill Amount</p>
+            <input  class="box" onclick="change()" id="billamount">
+            <p class="para">Tip Percentage</p>
+            <input  class="box" onclick="change()" id="tippercentage">
+            <p class="para">Tip Amount</p>
+            <p class="amt" onclick="change()" id="tipamount"></p>
+            <p class="para">Total</p>
+            <p class="amt" onclick="change()" id="total"></p>
+        </div>
+        <button class="calculate" onclick="calculate()" id="calculate">Calculate</button>
+        <p class="pc" id="alertp"></p>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

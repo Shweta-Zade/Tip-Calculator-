@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.post{
+    background: transparent;
+}
+
+.para{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.amt{
+    padding-left: 4px;
+    border: 2px solid black;
+    height: 20px;
+}
+
+.box{
+    padding-left: 4px;
+    border: 2px solid black;
+    height: 20px;
+}
+
+.calculate{
+    height: 34px;
+    width: 70px;
+    background: #264999;
+    color: aliceblue;
+    border: none;
+    border-radius: 10px;
+}
+
